@@ -1,0 +1,85 @@
+
+<!-- Created by: Samiel Azmaien and Dylan Degny -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RPSLS Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> <!-- imports css file -->
+</head>
+  <body>
+		<center><h1 id="header"> ROCK PAPER SCISSORS LIZARD SPOCK </h1></center><hr> <!-- main header -->
+
+    <div class="instructions">
+    <center><p class="A">
+    <strong><a class="magenta">1. Rock crushes scissors and lizard<br>2. Paper covers rock and disproves spock<br>3. Scissors cuts paper and decapitates lizard<br>4. Lizard poisons Spock and eats paper<br>5. Spock smashes scissors and vaporizes rock<br>Choose wisely!!<br><br></a><a class="lightblue">First player to reach 10 points wins.</a></strong> <!-- instructions for how to play -->
+    </p></center>
+    </div>
+    <div>
+    <a class="choose">Choose</a>
+    <a class="result">Result</a>
+    </div>
+		<!--Location of buttons on webpage-->
+		<button id = "rock" onclick = "clicked(rock())"><img src="../img/rock.PNG"></button>
+		<button id = "paper" onclick = "clicked(paper())"><img src="../img/paper.PNG"></button>
+<!-- table for showing user and computer choice -->
+  <center><table class="table1">
+    <thead>
+    <tr class="K">
+      <th class="L">User choice</th>
+      <th class="L">Computer Choice</th>
+    </tr>
+    </thead>
+    <tbody class="M">
+      <tr class="N">
+        <td id="userchoice" class="O">?</td>
+        <td id="computerchoice" class="O">?</td>
+      </tr>
+    </tbody>
+      </table></center><br><br>
+  <!-- shows whether user won or lost -->
+    <a class="winner" id="winner">Decision: </a>
+  	<button id = "scissors" onclick = "clicked(scissors())"><img src="../img/scissors.PNG"></button> 
+    <button id = "lizard" onclick = "clicked(lizard())"><img src="../img/lizard.PNG"></button>
+    <br>
+  <!-- score table that updats after each round -->
+    <center><table class="table2">
+    <thead>
+    <tr class="K">
+      <th class="L">Round: </th>
+      <th class="L">User Score: </th>
+      <th class="L">Computer Score: </th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr class="N">
+        <td id="round" class="P">0</td>
+        <td id="user_score" class="P">0</td>
+        <td id="comp_score" class="P">0</td>
+      </tr>
+    </tbody>
+    </table></center><br><br><br>
+		<button id = "spock" onclick = "clicked(spock())"><img src="../img/spock.PNG"></button>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+<!-- reset button that resets score  -->
+    <button class = "reset" onclick = "reset()"><img src="../img/reset.jpg"></button>
+  
+    <div class="vl"></div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
+
+  
+
+
+  
+
+
+
+
+

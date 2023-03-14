@@ -1,0 +1,174 @@
+/* use of css for aesthetics and paddings */
+h1{
+	font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: crimson;
+	font-size: 50px;
+}
+img{
+	height: 200px;
+}
+#rock{
+	font-size: 30px;
+	color: yellow;
+	background: black;
+  margin-left: 50px;
+/*   margin-right: 50px; */
+}
+#paper{
+	font-size: 30px;
+	color: red;
+	background: black;
+  margin-left: 50px;
+}
+#scissors{
+	font-size: 30px;
+	color:navy;
+	background:black;
+  margin-left: 50px;
+}
+#lizard{
+  font-size: 30px;
+	color:green;
+	background:black;
+  margin-left: 50px;
+}
+#spock{
+  float:left;
+  font-size: 30px;
+	color:blue;
+	background:black;
+  margin-left: 150px;
+}
+body{
+  color: white;
+  background-color: black;
+}
+
+.A {
+  color: white;
+}
+.instructions {
+  background-color:black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 50px;
+  color: white;
+  font-size: 20px;
+}
+.magenta {
+  color:magenta;
+}
+.lightblue {
+  color:lightblue;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 1100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 475px;
+}
+.choose {
+  background-color:black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-left: 275px;
+  color: white;
+  font-size: 40px;
+}
+.result {
+  overflow: hidden;
+  background-color:black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-left: 900px;
+  color: white;
+  font-size: 40px;
+}
+.K {
+  height: 100px; 
+  vertical-align: center; 
+  font-size: 30px; 
+  background-color: red;
+}
+.L {
+  width: 200px; 
+  border: 2px solid grey;  
+  font-family: Arial; 
+  color: white;
+}
+.M {
+  font-family: Courier New; 
+  color: white;
+}
+.N {
+  height: 75px; 
+  width: 200px;
+}
+.O {
+  border: 2px groove grey; 
+  background-color: #000000; 
+  color: white;
+  font-size: 20px;
+}
+.P {
+  border: 2px groove grey; 
+  background-color: #000000; 
+  color: white;
+  font-size: 40px;
+}
+.table1 {
+  float:right;
+  margin-right: 100px;
+  margin-top: -200px;
+  text-align: center; 
+  border-collapse: collapse;
+  border: 5px outset grey; 
+  border-spacing: 1px; 
+  padding: 5px;
+}
+.table2 {
+  float:right;
+  margin-right: 25px;
+  margin-top: -150px;
+  text-align: center; 
+  border-collapse: collapse;
+  border: 5px outset grey; 
+  border-spacing: 1px; 
+  padding: 5px;
+}
+.left {
+  margin-left: 25px;
+}
+.winner{
+  font-size: 40px;
+  margin-left: 850px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  background: red;
+}
+.reset {
+  height: -1px;
+  width: -1px;
+}
